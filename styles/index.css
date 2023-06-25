@@ -1,0 +1,208 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/background-6556414_1280.jpg);
+    padding-bottom: 110px;
+}
+
+.main-div{
+    margin: 20px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.headerDiv{
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(110, 110, 213);
+}
+
+.logo{
+    background-image: url(../assets/images/logo.jpg);
+    width: 307;
+    height: 89px;
+    margin-bottom: 5px;
+}
+
+button{
+    height: 40px;
+    padding: 7px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-right: 11px;
+    background-color: transparent;
+    transition: 300ms ease;
+    transition: all .2s ease-in-out;
+}
+
+
+button:hover{
+    background-color: rgb(105, 105, 105);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.name-div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    height: 82px;
+}
+
+.left-div{
+    display: flex;
+    align-items: center;
+}
+
+.flip-card{
+    width: 352px;
+    height: 370px;
+}
+
+.flip-card-inner{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+ }
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    border: 4px solid rgb(110, 110, 213);
+    box-shadow:  3px 4px 6px  rgba(0, 0, 0, 0.2); 
+}  
+
+.flip-card-front{
+    background-image: url(../assets/images/myFace.jpg);
+    
+}
+
+.flip-card-back {
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.studies{
+    height: 212px;
+    width: 600px;
+    box-shadow:  3px 4px 6px  rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 15px; ;
+    border: 4px solid rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+.studies:hover {
+    transform: scale(1.1);
+}
+
+.experience{
+    height: 220px;
+    width: 313px;
+    box-shadow:  3px 4px 6px  rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 15px; 
+    border: 4px solid rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+.experience:hover {
+    transform: scale(1.1);
+}
+
+.language{
+    height: 220px;
+    width: 257px;
+    box-shadow:  3px 4px 6px  rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 15px; 
+    border: 4px solid rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+.language:hover {
+    transform: scale(1.1);
+}
+
+.middle-div{
+    width: 650px;
+    height: 452px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.middle-top-div{
+    height: 235px;
+    width:  600px;
+}
+
+.middle-bottom-div{
+    height: 220px;
+    width:  622px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div{
+    background-color:rgb(123, 123, 123); 
+    height: 200px;
+    width: 100%;
+    /*margin-top: 110px;*/
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.github{
+    height: 41px;
+    background-image: url(../assets/images/github.png);
+    width: 112px;
+    
+}
+
+.linkedin{
+    height: 41px;
+    background-image: url(../assets/images/linkedin-logo.jpg);
+    width: 120px;
+    
+}
+
+
