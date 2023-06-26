@@ -26,6 +26,7 @@ main{
     width: 100%;
     justify-content: center;
     background-color: rgb(110, 110, 213);
+    height: 30px;
 }
 
 .logo{
