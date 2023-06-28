@@ -228,6 +228,13 @@ button:hover{
         display: flex;
         justify-content: center;
     }
+
+    main{
+        display: flex;
+        justify-content: center;
+        background-image: url(../assets/images/background-6556414_1280.jpg);
+        padding-bottom: 0px;
+    }
     
     .main-div{
         margin: 20px;
